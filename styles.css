@@ -6,7 +6,8 @@
 }
 
 header {
-    margin: 47px 0px 0px 42px;
+    margin-top: 47px;
+    margin-left: 42px;
 }
 
 .link-header {
@@ -36,12 +37,11 @@ header {
 }
 
 .logo-image {
+    margin: 163px 0 0 123px;
     width: 495px;
     height: 400px;
-    margin-left: 121px;
     top: 246px;
     display: inline-block;
-    margin-top: 30px;
 }
 
 section {
@@ -76,4 +76,8 @@ p {
     letter-spacing: 1px;
     color: #6FBF44;
     cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+   
 }
