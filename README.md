@@ -8,7 +8,10 @@ Desafio de código desenvolvido durante o módulo Front-End da formação Full S
 
 ### Versão para Mobile
 
-![screenshot](img/mobile.png)
+<div align="center">
+    <img width="250px" height="500px" title="projeto-mobile" src="./img/mobile.png"/>
+</div>
+
 
 
 ## Tecnologias
