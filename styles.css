@@ -6,8 +6,7 @@
 }
 
 header {
-    margin-top: 47px;
-    margin-left: 42px;
+    margin: 47px 0px 0px 42px;
 }
 
 .link-header {
@@ -37,11 +36,12 @@ header {
 }
 
 .logo-image {
-    margin: 163px 0 0 123px;
     width: 495px;
     height: 400px;
+    margin-left: 121px;
     top: 246px;
     display: inline-block;
+    margin-top: 30px;
 }
 
 section {
@@ -76,4 +76,59 @@ p {
     letter-spacing: 1px;
     color: #6FBF44;
     cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+
+    .link-header {
+        display: none;
+    }
+
+    .buttom-header {
+        float: right;
+        margin-right: 0.5rem;
+    }
+
+    .logo-image {
+        display: block;
+        position: absolute;
+        margin-left: 39px;
+        margin-right: 39px;
+        margin-top: 300px;
+        width: 354px;
+        height: 317px;
+    }
+
+    section {
+        display: block;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 30px;
+        width: 278px;
+        line-height: 41px;
+        height: 61px;
+        text-align: center;
+        position: absolute;
+        top: 150px;
+        margin-left: 55px;
+        margin-right: 55px;
+    }
+
+    p {
+        width: 304px;
+        text-align: center;
+        position: absolute;
+        top: 200px;
+        margin-left: 55px;
+        margin-right: 55px;
+    }
+
+    .buttom-main {
+        position: absolute;
+        top: 450px;
+        margin-left: 139px;
+        margin-right: 139px;
+    }
 }
